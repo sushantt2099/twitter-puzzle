@@ -1,0 +1,30 @@
+html { height: 100% }
+      body { height: 100%; margin: 0; padding: 0 }
+
+body {
+	background-image:url('../background.jpg');
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+input[type="text"] {
+    position: relative;
+    font-size: 1em;
+    height: 35px;
+}
+.main_foam{
+	position: relative;
+	margin-top: 600px;
+	margin-left: 550px;
+	font-size: 2em;
+	font-family: serif;
+	color: #e7e7e7;
+}
+input[type="button"]{
+	position: relative;
+	background: #2d5636;
+	color: #ffffff;	
+	margin-top: 10px;
+	font-size: larger;
+	position: relative;
+	margin-left: 315px
+	}

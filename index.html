@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+	<head>
+		<title>Let's Play a Game</title>
+		<link href = "css/style.css" rel="stylesheet" type="text/css" media="all" />
+		    <script language="javascript" type="text/javascript">
+
+			    function takeAction()
+			    {
+				     if (document.getElementById("handler").value == "")
+				     	alert("Hey! You didn't enter anything!")
+				    else{
+					    window.location='createcloud.php?handler='+document.getElementById("handler").value+'&sample_size=200&retweet=false&exclude_replies=false';
+					    }
+				}
+    </script>
+	</head>
+	
+	
+	<body>
+		<div class="container">
+			<div class="main_foam">
+			Your Twitter handle: @
+				<input type="text" value="" id = "handler" name="handle">
+				<br>
+				<input id="submit_button"  type="button" value="Hit it!" onClick="takeAction()">
+			</div>
+		</div>
+	
+	</body>
+
+
+</html>
