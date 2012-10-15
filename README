@@ -1,0 +1,10 @@
+Author: Sushant(sushantt2099@gmail.com)
+
+
+
+Content Description: This contains the solution to the puzzle @ http://puzzle.multunus.com/ i.e it genrate the same output with
+[Including retweets in the final calculation]
+[Excluding Replies]
+[Increasing the sampling size to a 1000 tweets or anything]
+
+Language used: javascript, css, html, php(5.3)
